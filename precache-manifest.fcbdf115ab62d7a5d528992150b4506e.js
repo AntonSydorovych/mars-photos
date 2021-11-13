@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d7dcee2dd0c4cec8a930f56e9941af2",
+    "revision": "42b05895ed76a1413876d30b2d6bf602",
     "url": "/mars-photos/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mars-photos/static/css/2.f7861fd5.chunk.css"
   },
   {
-    "revision": "6e875ef6524a3e6720fe",
+    "revision": "b4e0ee95e673e1663355",
     "url": "/mars-photos/static/css/main.4bcd4cb8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mars-photos/static/js/2.a146255d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6e875ef6524a3e6720fe",
-    "url": "/mars-photos/static/js/main.4ee1628e.chunk.js"
+    "revision": "b4e0ee95e673e1663355",
+    "url": "/mars-photos/static/js/main.db7cf953.chunk.js"
   },
   {
     "revision": "49afd81692f5fd1fa7ca",
