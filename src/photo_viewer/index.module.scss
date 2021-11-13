@@ -1,0 +1,31 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.photoViewer {
+
+  .header {
+    text-align: center;
+  }
+
+  .photosArea {
+
+    width: 80%;
+    display: grid;
+    margin: auto;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+    grid-gap: 40px;
+    height: 75vh;
+    overflow: scroll;
+
+    .title {
+      margin-top: 40px;
+      font-size: 1.5rem;
+    }
+  }
+
+  .button {
+
+  }
+}

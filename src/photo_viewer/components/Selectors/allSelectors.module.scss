@@ -1,0 +1,45 @@
+.mainWrapper {
+
+
+  .selectorsWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Orbitron", sans-serif !important;
+
+
+
+    .selector {
+      margin: 1%;
+      .selectorTitle {
+         text-shadow: 2px 2px 1px #000;
+       }
+
+      .findButton {
+        background: black;
+        color: white;
+      }
+    }
+
+
+    //.roverType {
+    //  margin: auto;
+    //}
+    //
+    //.camera {
+    //  margin: auto;
+    //}
+    //
+    //.solar {
+    //  margin: auto;
+    //}
+  }
+
+  .button {
+    margin: auto;
+    text-align: center;
+  }
+}
