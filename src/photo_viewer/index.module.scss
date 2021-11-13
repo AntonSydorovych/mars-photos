@@ -20,14 +20,15 @@
     overflow: scroll;
 
     .title {
-      margin-top: 40px;
-      font-size: 1.5rem;
-      background-color: #985000;
-      border: 1px solid white;
-      padding: 3px;
-      color: white;
-      height: 7%;
+
+      max-width: 400px;
+      background: #d35941;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 10px;
+      margin: 40px auto auto auto;
       text-align: center;
+      font-size: 1.2rem;
     }
   }
 
