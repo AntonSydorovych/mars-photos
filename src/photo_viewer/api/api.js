@@ -9,7 +9,5 @@ export const downloadPhotos = (rover, camera, solarDay) => {
     return async (dispatch) => {
         const response = await axios.get(`https://api.nasa.gov/mars-photos/api/v1/rovers/${rover}/photos?sol=${solarDay}&camera=${camera}&api_key=${DEMO_KEY}`)
         dispatch(loadPhotos(response.data))
-        console.log(response.data)
     }
-}
-
+};

@@ -19,7 +19,6 @@ const AllSelectors = () => {
         if (rover === 'curiosity') {
             setRoverCameras(selectorOptions.cameras.curiosity);
             setCamera('fhaz');
-            console.log('opportyunity or Spirit')
         } else {
             setRoverCameras(selectorOptions.cameras.opportyunityAndSpirit);
         }
@@ -27,12 +26,10 @@ const AllSelectors = () => {
 
     const changeRover = (value) => {
         setRover(value);
-        console.log('rover: ', value);
     };
 
     const changeCamera = (value) => {
         setCamera(value);
-        console.log('camera: ', value);
     };
 
     const changeSolarDay = (value) => {
@@ -40,7 +37,7 @@ const AllSelectors = () => {
     };
 
     const loadPhotos = () => {
-        dispatch(downloadPhotos(rover, camera, solarDay))
+        dispatch(downloadPhotos(rover, camera, solarDay));
     };
 
     return (
@@ -70,10 +67,16 @@ const AllSelectors = () => {
                     <span className={style.selectorTitle}>
                         SOLAR DAY:
                     </span>
-                    <Input changeValue={changeSolarDay}/>
+                    <Input
+                        changeValue={changeSolarDay}
+                        value={solarDay}
+                    />
                 </div>
                 <div className={style.selector}>
-                  <Button className={style.findButton} onClick={loadPhotos}>Find photos</Button>
+                  <Button
+                      className={style.findButton}
+                      onClick={loadPhotos}>Find photos
+                  </Button>
                 </div>
             </div>
         </div>

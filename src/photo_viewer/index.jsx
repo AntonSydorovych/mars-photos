@@ -6,12 +6,11 @@ import {useSelector} from 'react-redux';
 import style from './index.module.scss';
 
 const PhotoViewer = () => {
-
     const state = useSelector(state => state);
 
-    let mappedPhotos = <span className={style.title}>Choose rover camera and solar day ;)</span>;
+    let mappedPhotos = <span className={style.title}>Choose rover, camera and solar day</span>;
 
-    if (state.allPhotos.photos !== undefined) {
+    if (state.allPhotos.photos !== undefined && state.wasPhotosSearched === true) {
         mappedPhotos = state.allPhotos.photos.map(item => <PhotoCard key={item.id} imgSrc={item.img_src}/>)
     }
 
@@ -25,7 +24,8 @@ const PhotoViewer = () => {
                 <AllSelectors/>
             </div>
             <div className={style.photosArea}>
-                {mappedPhotos}
+                {mappedPhotos.length === 0 ? <span className={style.title}>No Results Found</span> :
+                    mappedPhotos}
             </div>
             <div className={style.button}>
             </div>
