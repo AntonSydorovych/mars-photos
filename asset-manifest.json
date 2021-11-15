@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mars-photos/static/css/main.7c1357b5.chunk.css",
-    "main.js": "/mars-photos/static/js/main.d10faa55.chunk.js",
-    "main.js.map": "/mars-photos/static/js/main.d10faa55.chunk.js.map",
+    "main.css": "/mars-photos/static/css/main.8895bf40.chunk.css",
+    "main.js": "/mars-photos/static/js/main.31af47bf.chunk.js",
+    "main.js.map": "/mars-photos/static/js/main.31af47bf.chunk.js.map",
     "runtime-main.js": "/mars-photos/static/js/runtime-main.c91ac1c1.js",
     "runtime-main.js.map": "/mars-photos/static/js/runtime-main.c91ac1c1.js.map",
     "static/css/2.f7861fd5.chunk.css": "/mars-photos/static/css/2.f7861fd5.chunk.css",
-    "static/js/2.f4d15bb0.chunk.js": "/mars-photos/static/js/2.f4d15bb0.chunk.js",
-    "static/js/2.f4d15bb0.chunk.js.map": "/mars-photos/static/js/2.f4d15bb0.chunk.js.map",
+    "static/js/2.5baff27c.chunk.js": "/mars-photos/static/js/2.5baff27c.chunk.js",
+    "static/js/2.5baff27c.chunk.js.map": "/mars-photos/static/js/2.5baff27c.chunk.js.map",
     "index.html": "/mars-photos/index.html",
-    "precache-manifest.989058caf779d9fa5f1132f414349fa2.js": "/mars-photos/precache-manifest.989058caf779d9fa5f1132f414349fa2.js",
+    "precache-manifest.cdc0da7e9b8f80eab10f7e8aea357e2c.js": "/mars-photos/precache-manifest.cdc0da7e9b8f80eab10f7e8aea357e2c.js",
     "service-worker.js": "/mars-photos/service-worker.js",
     "static/css/2.f7861fd5.chunk.css.map": "/mars-photos/static/css/2.f7861fd5.chunk.css.map",
-    "static/css/main.7c1357b5.chunk.css.map": "/mars-photos/static/css/main.7c1357b5.chunk.css.map",
-    "static/js/2.f4d15bb0.chunk.js.LICENSE.txt": "/mars-photos/static/js/2.f4d15bb0.chunk.js.LICENSE.txt"
+    "static/css/main.8895bf40.chunk.css.map": "/mars-photos/static/css/main.8895bf40.chunk.css.map",
+    "static/js/2.5baff27c.chunk.js.LICENSE.txt": "/mars-photos/static/js/2.5baff27c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c91ac1c1.js",
     "static/css/2.f7861fd5.chunk.css",
-    "static/js/2.f4d15bb0.chunk.js",
-    "static/css/main.7c1357b5.chunk.css",
-    "static/js/main.d10faa55.chunk.js"
+    "static/js/2.5baff27c.chunk.js",
+    "static/css/main.8895bf40.chunk.css",
+    "static/js/main.31af47bf.chunk.js"
   ]
 }
