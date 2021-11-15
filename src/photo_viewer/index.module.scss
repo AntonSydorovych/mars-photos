@@ -3,24 +3,23 @@
 }
 
 .photoViewer {
-
   .header {
     text-align: center;
   }
 
   .photosArea {
 
-    width: 80%;
+    //width: 80%;
     display: grid;
     margin: auto;
     justify-content: space-around;
     grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
     grid-gap: 40px;
-    height: 75vh;
+    height: 60vh;
     overflow: scroll;
+    text-align: center;
 
     .title {
-
       max-width: 400px;
       background: #d35941;
       color: #fff;
@@ -33,6 +32,13 @@
   }
 
   .button {
-
+    width: 200px;
+    height: 70px;
+    background: #d35941;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
   }
 }
